@@ -15,11 +15,9 @@ let prezzoScontatoViaggio;
 // se hanno un eta differente cambia il prezzo e stampa il risultato
 if (etaPasseggero < 18) {
     prezzoScontatoViaggio = (prezzoViaggio - (prezzoViaggio * 20 / 100)).toFixed(2);
-
-} else if (etaPasseggero > 65) {
+}
+else if (etaPasseggero > 65) {
     prezzoScontatoViaggio = (prezzoViaggio - (prezzoViaggio * 40 / 100)).toFixed(2);
-
-} else {
 };
 
 // messaggio di risposta alla richiesta
